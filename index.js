@@ -9,6 +9,7 @@ function largestSubarraySum(array){
      
       currentMaxSum = Math.max(0, currentMaxSum+=array[j])
       maxSum = Math.max(maxSum, currentMaxSum)
+      console.log('currentmaxsum:', currentMaxSum, 'maxSum:', maxSum)
      
    }
  }
