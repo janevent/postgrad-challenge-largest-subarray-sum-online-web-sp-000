@@ -1,5 +1,5 @@
 function largestSubarraySum(array){
- if(array.every?((item) item >=0)){
+ if(array.every?(item => item > -1)){
    return array.reduce((sum, num) => sum + num, 0)
  }
  let currentMaxSum = 0;
