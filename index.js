@@ -12,6 +12,7 @@ function largestSubarraySum(array){
       console.log('currentmaxsum:', currentMaxSum, 'maxSum:', maxSum)
      
    }
+   currentMax = 0;
  }
  return maxSum
 }
